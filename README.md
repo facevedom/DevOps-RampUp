@@ -26,9 +26,10 @@ This is an optional challenge and should be taken if you feel like refreshing yo
 
 The objective of this challenge is to set up [git-flow](http://nvie.com/posts/a-successful-git-branching-model/ "Git-Flow original proposal") on a GitHub repository. 
 
-- Clone this repository (if you are using Windows, install [Git for Windows](https://git-scm.com/download/win "Git for Windows") if you haven't already...).
+- Clone these repositories (if you are using Windows, install [Git for Windows](https://git-scm.com/download/win "Git for Windows") in case you haven't already...).
 
-`git clone https://github.com/facevedom/node-starter-app`
+`git clone https://github.com/juan-ruiz/movie-analyst-api.git`
+`git clone https://github.com/juan-ruiz/movie-analyst-ui.git`
 
 
 - Create *n **FIXME*** branches
