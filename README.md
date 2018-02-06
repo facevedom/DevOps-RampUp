@@ -29,6 +29,7 @@ The objective of this challenge is to set up [git-flow](http://nvie.com/posts/a-
 - Clone these repositories (if you are using Windows, install [Git for Windows](https://git-scm.com/download/win "Git for Windows") in case you haven't already...).
 
 `git clone https://github.com/juan-ruiz/movie-analyst-api.git`
+
 `git clone https://github.com/juan-ruiz/movie-analyst-ui.git`
 
 
