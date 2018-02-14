@@ -54,10 +54,10 @@ To complete this challenge, create the environments to run the application you c
 Some of the steps needed:
  - Create an AWS account
  - Setup a custom VPC.
- - Create a public and a private VPC.
+ - Create a public and a private subnet.
  - Create route tables.
  - Setup a connection to internet (Internet Gateway and NAT).
- - Create ACL ans SG's (Security).
+ - Create ACL and SG's (Security).
  - Setup EC2 instances.
 
 #### SetUp 2
