@@ -65,7 +65,7 @@ In case you already have some knowledge on AWS basics, this setup is meant to cr
 
 
 Additional steps for this setup.
-  - Setup an Elastic Load Balancer.
+  - Setup an Elastic Load Balancer (Application Load Balancer).
   - Create a new subnet in a different availability zone.
   - Set up a DMZ with a proxy server (Nginx is recommended).
   - Use RDS service to create a read replica in one of the AZs.
