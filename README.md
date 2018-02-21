@@ -47,6 +47,7 @@ The objective of this challenge is to set up the environments on which the appli
 To complete this challenge, create the environments to run the application you cloned in the last challenge. There are 2 setups. Create at least the first one to complete the Challenge.
 
 ![alt text][logo]
+
 [logo]:https://bitbucket.endava.com/projects/BD/repos/devops-rampup/raw/AWSSetup1.png?at=refs%2Fheads%2Fmaster "First SetUp"
 
 Steps:
@@ -61,7 +62,8 @@ Steps:
 ---
 ### **3. Configuration Management**
 
-To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. See the 2 application folders in order to find out what their dependencies are. Some of the tools we use are Chef, Puppet, and Ansible.
+To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. Dependencies required to run the app should be clear since challenge 1. 
+Ansible is encouraged for beginners, but feel free to use Chef or Puppet instead.
 
 ---
 ### **4. CI/CD**
