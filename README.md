@@ -35,16 +35,18 @@ The objective of this challenge is to set up [git-flow](http://nvie.com/posts/a-
 
 - Define a branching strategy that complies to GitFlow, and create the necessary branches (such as `develop`) on each repo
 
-- Fix all bugs (and bad practices that you identify) in the proper branches, until the app runs smoothly
+- Fix all bugs in the proper branches, until the app runs smoothly
 
 - Provide a diagram of your branching strategy
+
+---
+Porpuesta: Vagrant para virtualización y que ahí se desarrolle CM
 
 ---
 ### **2. AWS Basics**
 
 The objective of this challenge is to set up the environments on which the application will run.
-
-To complete this challenge, create the environments to run the application you cloned in the last challenge. There are 2 setups. Create at least the first one to complete the Challenge.
+To complete this challenge, create the environments to run the application you cloned in the last challenge.
 
 ![alt text][logo]
 
@@ -58,12 +60,16 @@ Steps:
  - Setup a connection to internet (Internet Gateway and NAT).
  - Create ACL and SG's (Security).
  - Setup EC2 instances.
+ - Create auto scaling groups
+ - Create a load balancer
 
 ---
 ### **3. Configuration Management**
 
 To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. Dependencies required to run the app should be clear since challenge 1. 
 Ansible is encouraged for beginners, but feel free to use Chef or Puppet instead.
+Proper management of key pairs for SSH access is crucial to this challenge.
+Remember dynamic inventory.
 
 ---
 ### **4. CI/CD**
