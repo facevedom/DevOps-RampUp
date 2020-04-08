@@ -7,7 +7,6 @@ DevOps has a wide variety of practices, tools, and methodologies, which enable i
 This ramp-up is presented as a **series of challenges**. Each challenge is chosen to show beginners the basics of some of the DevOps practices, and it is designed to help us use the same language after its completion. We are tool agnostics, so you can use any tool you like, but we do have a client base that need us to be proficient in some basic AWS concepts.
 
 
-
 ## Challenges
 
 
@@ -43,6 +42,17 @@ The objective of this challenge is to set up [git-flow](http://nvie.com/posts/a-
 Porpuesta: Vagrant para virtualización y que ahí se desarrolle CM
 
 ---
+---
+### **#?. Basic concepts to deploy an aplication**
+here we want to test if we know to build an app from scratch, meaning, building binaries, install them, install the necessary dependencies, without the help of an IDE, or another tool that makes the process EZ, and hopefully is portable to another machine, implying that, if we create a new machine, the steps would be easily reproducible, be aware that we are not asking him to rebuild tools like yum, apt-get install or wizard install, we are asking for reproducible steps in same based Os systems, preferably U**nix** based
+
+Definition of Done:
+- [ ] able to install the tools to build the project (java, node, python, c++, .... brainfuck, database engine), also would be very nice that he knows or use tools to easily change builds version, (node-->nvm, python --> virtualenv, pyenv, ....., java --> update-alternatives)
+- [ ] knows how to manually run the artifact, binary, zip, whatever, without an IDE
+- [ ] able to locally troubleshoot the application if necessary.
+- [ ] know how to interact with a cli or api (mysqlcli, rediscli)
+- [ ] asked a change, he could  redeploy the app
+
 ### **2. AWS Basics**
 
 The objective of this challenge is to set up the environments on which the application will run.
