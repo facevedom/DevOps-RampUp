@@ -12,5 +12,9 @@ This ramp-up is presented as a **series of challenges**. Each challenge is chose
 
 ## Challenges
 
-List of challenges here.
-
+1. [Linux basics](1.linux_basics.md)
+2. [Basic concepts to deploy an application](2.basic_concepts_to_deploy_an_application.md)
+3. [Scripting](3.scripting.md)
+4. [Source Code Management – SCM](4.scm.md)
+5. [Cloud basic](5.cloud_basics.md)
+6. [Infrastructure as code – IaC](6.infrastructure_as_code.md)
